@@ -36,5 +36,14 @@
     "grunt-contrib-jshint": "~0.3.0",
     "grunt-contrib-qunit": "~0.2.0"
   },
-  "keywords": []
+  "keywords": [],
+  "directories": {
+    "lib": "src"
+  },
+  "buildConfig": {
+    "uglify": true
+  },
+  "jspm": {
+    "main": "scrollr"
+  }
 }
